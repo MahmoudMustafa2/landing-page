@@ -69,23 +69,24 @@
   
   /* End CSS Reset */
 
+
+
+
+
+
 body{
 /* width: 1440px; ده عرض الصفحة اللي هو مدهونى */   
  width: 1280px; 
 
-height: 5189px;
+height: 5250px;
 padding:50px 20px 20px 50px;
-margin-left: 50px;
+margin-left: 75px;
  top: -2360px;
 left: -761px;
 gap: 0px;
 opacity: 0px;
+overflow-x: hidden;
 
-
-
-
-
-;
 }
 
 /*Start header*/
@@ -389,7 +390,7 @@ color: #4F5665;
 
 .plan-layout{   /*ده كود كل خطه منفردة*/
   width: 330px;
-height: 700px;
+height: 760px;
 display: grid;
 grid-template-rows: 170px  50px 100px 80px  80px;
 padding-left: 100px;
@@ -418,6 +419,8 @@ margin-left: -20px;
   position: relative; 
   padding-left: 30px;
   margin-bottom: 10px; 
+  font-family: Rubik;
+
   
 }
 .pl-it::before{
@@ -437,6 +440,7 @@ font-weight: 500;
 line-height: 30px;
 color: #8b8f9c;
 margin-left: 30px;
+margin-top: 100px;
 }
 .price-strong{
   color: #0B132A;
@@ -455,6 +459,8 @@ border: 2px ;
 opacity: 0px;
 border: 2px solid #F53838;
 font-weight: 900;
+margin-top: 60px;
+
 }
 .plan__btn:hover{
   background: #F53838;
@@ -717,7 +723,8 @@ color: #4F5665;
 .copyright{
   width: 132px;
 height: 30px;
-
+margin-top: -35px;
+margin-left: 20px;
 
 font-family: Rubik;
 font-size: 16px;
@@ -755,7 +762,9 @@ margin-bottom: 8PX;
 .item:hover{
   color: #F53838;
 }
-
+.link:hover{
+  color: #F53838;
+}
 
 
 
