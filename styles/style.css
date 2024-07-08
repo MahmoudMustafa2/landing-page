@@ -1,0 +1,782 @@
+/* :root {
+    --color-soft-blue: #5368df;
+    --color-soft-red: #fa5757;
+    --color-grayish-blue: #9194a1;
+    --color-very-dark-blue: #252b46;
+    --color-off-white: #f7f7f7;
+    --default-padding: 2rem;
+    --default-radius: 0.4rem;
+    --desktop-width: 900px;
+    --tablet-width: 600px;
+    --timing-animation: 0.2s;
+  } */
+
+
+/* CSS Reset */
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: inherit;
+    display: inline-block;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border: 0;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  html {
+    font-size: 62.5%;
+    width: 1220px;
+    height: 5116.72px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+  }
+  
+  body {  
+    font-size: 1.6rem;
+    font-family: "Rubik", sans-serif;
+    line-height: 1.3;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* End CSS Reset */
+
+body{
+/* width: 1440px; ده عرض الصفحة اللي هو مدهونى */   
+ width: 1280px; 
+
+height: 5189px;
+padding:50px 20px 20px 50px;
+margin-left: 50px;
+ top: -2360px;
+left: -761px;
+gap: 0px;
+opacity: 0px;
+
+
+
+
+
+;
+}
+
+/*Start header*/
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  width:1150px;
+
+}
+.logo{
+  scale: 1.01;
+  width: 149px;
+height: 36.23px;
+top: 50px;
+left: 150px;
+gap: 0px;
+opacity: 0px;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.96px;
+text-align: left;
+padding-right: 8px;
+color: #4F5665;
+}
+.ul__navigation{
+  display: flex;
+  gap: 38px;
+  padding-top: 9px;
+  font-family: Rubik;
+font-size: 16.2px;
+font-weight: 400;
+line-height: 18.96px;
+text-align: left;
+
+}
+.link{
+justify-content: space-between;
+}
+.buttons{
+  display: flex;
+  margin-top: -5px;
+
+}
+.btn1{
+  font-size: 16px;
+
+  padding-right: 35px;
+color:  #0B132A;
+font-weight: 700;
+}
+.btn2{
+  font-size: 16px;
+
+  font-weight: 700;
+  padding-right: 35px;
+  border: 1px solid #F53855;
+  width: 150px;
+  height: 45px;
+  top: 45.62px;
+  left: 1140px;
+  gap: 0px;
+  border-radius: 50px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  color:#F53855;
+  padding-left: 35px;
+}
+/*End header*/
+
+/*Start intro*/
+.introduction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.intro__text{
+  margin-right: 43px;
+}
+h1{
+/*   width: 555px;
+height: 140px;
+top: 206.77px;
+left: 150px;
+gap: 0px;
+opacity: 0px; */
+padding-top: 50px;
+font-family: Rubik;
+font-size: 50px;
+font-weight:600;
+line-height: 70px;
+text-align: left;
+color: #0B132A;
+;
+
+}
+p{
+  width: 555px;
+height: 60px;
+top: 366.77px;
+left: 150px;
+gap: 0px;
+opacity: 0px;
+margin-top: 20px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #4F5665;
+;
+}
+.intro__image{
+  margin-top: 20px;
+}
+.btn3{
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 15px;
+    background-color: #F53838;
+  margin: 48px 0 0 0;
+  width: 250px;
+height: 60px;
+top: 476.77px;
+left: 150px;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.3);
+}
+/* .button:hover {
+  box-shadow: 0px 15px 25px rgba(255, 0, 0, 0.5);   /* تأثير الظل عند التمرير 
+} */
+/*End intro*/
+
+
+
+
+
+
+
+/*Start row*/
+.num{
+  color: black;
+}
+.imgitem{
+  margin-top: 25px;
+  width: 55px;
+  height: 55px;
+  margin-right: 25px;
+}
+.des{
+  font-size: 22px;
+}
+.item{
+  display: flex;
+}
+.icons__row{
+  display: grid;
+  grid-template-columns: 350px 400px 350px;
+  margin-left: 100px;
+  margin-top: 120px;
+  }
+/*متنسااااااااااااااااااااااااااااااااااااااااااااش تكمل الجزء ده يا محموووووووووووووووووووووووووووووووووووووووووووووووووووووووووووود*/
+/*End row*/
+
+/*Start features*/
+.features{
+  display: flex;
+  margin-top: 200px;
+}
+
+
+
+
+.image2{
+  width: 508.12px;
+height: 414.71px;
+top: 960.38px;
+left: 184.52px;
+gap: 0px;
+opacity: 0px;
+margin-right: 200px;
+
+}
+h3{
+  width: 383.41px;
+  height: 100px;
+  top: 1014.55px;
+  left: 862.12px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 60px;
+color:  #0B132A;
+
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: left;
+  
+}
+.text__Features{
+  width: 427.88px;
+  height: 60px;
+  top: 1134.55px;
+  left: 862.12px;
+  gap: 0px;
+  opacity: 0px;
+  color: #4F5665;
+
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+
+.li{
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color:  #4F5665;
+  margin-top: 20px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+
+}
+.img-row{
+  display: flex;
+  margin-top: -10px;
+}
+.img_icon{
+  margin-top: 22px;
+  margin-right: 5px;
+}
+
+/*End features*/
+
+/*Strat plan*/
+.plan_title{
+  display: grid;
+  place-items: center;
+  margin-top: 120px;
+
+}
+.titleof__plan{
+  width: 383.41px;
+height: 50px;
+top: 1586.55px;
+left: 528.3px;
+gap: 0px;
+opacity: 0px;
+font-family: Rubik;
+font-size: 35px;
+font-weight: 500;
+line-height: 50px;
+text-align: center;
+color: #0B132A;
+}
+.plan__intro{
+  width: 555px;
+height: 60px;
+top: 1656.55px;
+left: 442.5px;
+gap: 0px;
+opacity: 0px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: #4F5665;
+
+}
+.plans-layouts{   /*ده كود كل الخطط*/
+  display: flex;
+  gap: 50PX;
+  justify-content: center;
+  margin-top: 80px;
+  
+}
+
+
+.plan-layout{   /*ده كود كل خطه منفردة*/
+  width: 330px;
+height: 700px;
+display: grid;
+grid-template-rows: 170px  50px 100px 80px  80px;
+padding-left: 100px;
+padding-top: 80px;
+gap: 30px;
+ border-radius: 10px;
+border: 2px solid #DDDDDD;  
+}
+
+
+.plan__name{
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 20px;
+  color: #0B132A;
+  justify-content: center;
+
+}
+.plan_adv_list{
+  width: 190.26px;
+height: 150px;
+top: 2111.55px;
+margin-left: -20px;
+}
+.pl-it{
+  position: relative; 
+  padding-left: 30px;
+  margin-bottom: 10px; 
+  
+}
+.pl-it::before{
+  content: "\2714"; /* رمز Unicode لعلامة الصح */
+            color: green; /* لون علامة الصح */
+            font-size: 1.5em; /* حجم علامة الصح */
+            position: absolute; /* ضبط العنصر بشكل مطلق */
+            left: 0; /* وضع العنصر في اليسار */
+            top: 50%; /* تمركز العنصر عمودياً */
+            transform: translateY(-50%);
+}
+
+
+.price{
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+color: #8b8f9c;
+margin-left: 30px;
+}
+.price-strong{
+  color: #0B132A;
+  font-size: 25px;
+}
+
+
+.plan__btn{
+  color: #F53838;
+  margin-left: -25px;
+  width: 177.88px;
+height: 45px;
+top: 2441.55px;
+border-radius: 50px ;
+border: 2px ;
+opacity: 0px;
+border: 2px solid #F53838;
+font-weight: 900;
+}
+.plan__btn:hover{
+  background: #F53838;
+color: white;
+}
+.plan-layout:hover{ 
+border: 2px solid #F53838;  
+}
+/*End plan*/
+
+
+
+/*Start Network*/
+.Network{
+  margin-top: 100px;
+  display: grid;
+  place-items:center;
+
+  
+}
+.titleof__network{
+    text-align: center;
+    margin-left: 80px;
+}
+.network__intro{
+  text-align: center;
+
+}
+.world__image{
+  margin-top: 150px;
+}
+.sponsored__img{
+  margin-left: 120px;
+}
+/*End Network*/
+
+/*Start clients*/
+.clients{
+  margin-top: 10px;
+  place-items:center;
+    
+}
+.clients_title{
+    margin-left: 350px;
+}
+
+.titleof__clients{
+  text-align: center;
+  margin-left: 80px;
+}
+.clients__intro{
+  text-align: center;
+
+}
+
+.client{
+  border: 2px solid rgb(184, 174, 174);
+  border-radius: 10px;
+  width: 400px;
+height: 210px;
+left: 150px;
+padding: 10px;
+margin-top: 50px;
+margin-right: 40px;
+margin-left: 40px;
+margin-bottom: 50px;
+}
+.client:hover{
+  border: 2px solid #F53838;  
+
+}
+
+
+.top{
+  display: flex;
+}
+
+.right-part{
+  width: 150px;
+  height: 16px;
+  margin-top: 10px;
+  display: flex;
+flex-direction: row;
+}
+
+.star{
+  width: 15px;
+height: 14px;
+  margin-right: 20px;
+}
+.rate{
+  margin-top: -7px;
+  font-size: 15px;
+  margin-left: 90px;
+  padding-right: 15px;
+
+}
+
+
+.left-part{
+  width: 250px;
+  height:50px;
+  display: flex;
+
+}
+.client_img{
+  width: 60px;
+  margin-right: 15px;
+height: 60px;
+top: 4124.25px;
+left: 630px;
+border: 1px gray solid;
+border-radius: 50%;
+
+}
+.client-name{
+  font-family: Rubik;
+font-size: 15px;
+font-weight: 100;
+
+}
+.client_city{
+  width: 101px;
+height: 14px;
+font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-left: -120px;
+
+}
+
+.bottom{
+  display: flex;
+}
+.client__opinion{
+flex-wrap: wrap;  
+font-family: Rubik;
+font-size: 10px;
+text-align: left;
+line-height: 2;
+font-weight: 500;
+}
+/*   اللي فوق ده الكود بدون السكرووووول وكل الاراء جمب بعض*/
+
+
+
+
+.clients__wrapper{                      /*ده المكان اللي جواه السكرووول*/
+  padding-top: 5rem;
+  display: flex;
+  overflow-x: auto;                        /*كده انا عملت سكرول داخل الرابر فقط مش الصفحة كلها*/
+  scroll-snap-type: x mandatory ;  /*       /* السطر ده علشان علامة الاسكور تروح للراي الاقرب ليها وتكون في بداية احد منهم*/
+}
+
+
+.buttons_scroll{
+  display: flex;
+  margin-left: 1050px;
+  margin-top: 50px;
+}
+
+.btn_scroll{
+margin-right:15px ; 
+  font-size: 40px;
+  font-weight: 900;
+  color: #F53838;
+  width: 60px;
+height: 60px;
+ border: 2px solid #F53838;
+ border-radius: 50%;
+ padding-bottom: 65px;
+}
+.btn_scroll:checked{
+  color:white;
+  background-color: #F53838;
+
+}
+/*End clients*/
+
+/*Start Subscribe*/
+.subscribe{
+  width: 1180px;
+height: 233px;
+margin-top: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 250px;
+box-shadow: 0px 10px 20px rgba(54, 54, 54, 0.1);
+ 
+}
+.left-part-of-subscribe{
+margin-left: 60px;
+}
+
+
+.subscribe-button{
+  width: 250px;
+height: 60px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  color: white;
+background-color: #F53838;
+
+
+}
+/*End Subscribe*/
+
+
+
+/*Start footer*/
+
+.footer{
+  display: flex;
+  margin-top: 80px;
+  margin-left: 30px;
+  gap: 300px;
+}
+
+.left-part-of-footer{
+  display: grid;
+}
+.logo-footer{
+  width: 149px;
+height: 36.23px;
+top: 4805.78px;
+left: 150px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.footer-text{
+  width: 340px;
+height: 61.57px;
+top: 4862.01px;
+left: 150px;
+gap: 0px;
+opacity: 0px;
+font-family: Rubik;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+color: #4F5665;
+
+}
+.footer-icon{
+  width: 33.6px;
+  height: 33.6px;
+  top: 4953.58px;
+ margin-top: 20px;
+ margin-right: 15px;
+  
+
+}
+.copyright{
+  width: 132px;
+height: 30px;
+
+
+font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: #AFB5C0;
+}
+
+
+.right-part-of-footer{
+  display: flex;
+  gap: 100px;
+}
+.listname{
+font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+color: #0B132A;
+margin-bottom: 25PX;
+
+}
+.item{
+  font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #4F5665;
+margin-bottom: 8PX;
+
+}
+.item:hover{
+  color: #F53838;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End footer*/
+
+
+
