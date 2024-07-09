@@ -12,13 +12,23 @@
   } */
 
 
-/* CSS Reset */
+/*الحمدلله رب العالمين تم الانتهاء من المشروع وهناك بعض الملاحظات  */
+/*انا سبت الكومنتات مع علمي بالكلين كود ولكن علشان احنا ف الدبلومة وبحاول اشرح الكود للبشمهندس*/
+/*قد يكون هناك بعض الاخطاء او امر نسيتها ولكن تعلمت الكثييير من هذا المشروع */
+/*الحمدلله هذا المشروع اعطاني ثقة حلوة فى نفسي اني اقدر اعمل مشروع لوحدي*/
+/*الهدف من المشروع اكيد هو ظخور الصفحة باحسن تنسيق فقد يكون هناك اختلافات بسيطه ف الارقام ولكن يبقي الهدف واحد وهو الانتهاء من المشروع بكفاءة الحمدلله*/
 
+
+
+
+
+/* CSS Reset */
 .rubik {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik" , "Rubik",sans-serif ;
   font-optical-sizing: auto;
 
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -51,15 +61,9 @@
   html {
     font-size: 62.5%;
     width: 1220px;
-    height: 5116.72px;
+    height: 5000.72px;
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
-  }
-  
-  body {  
-    font-size: 1.6rem;
-    font-family: "Rubik", sans-serif;
-    line-height: 1.3;
   }
   
   a {
@@ -71,16 +75,14 @@
 
 
 
-
-
-
 body{
-/* width: 1440px; ده عرض الصفحة اللي هو مدهونى */   
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.3;
  width: 1280px; 
-
-height: 5250px;
-padding:50px 20px 20px 50px;
-margin-left: 75px;
+height: 5050px;
+padding:50px 20px 20px 30px;
+margin-left: 30px;
  top: -2360px;
 left: -761px;
 gap: 0px;
@@ -88,6 +90,29 @@ opacity: 0px;
 overflow-x: hidden;
 
 }
+
+
+/*Don't repeat your self*/
+/* start global code*/
+ .first-text{
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #0B132A;
+} 
+.second-text{
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #4F5665;
+} 
+/*end global code*/
+
+
+
+
 
 /*Start header*/
 
@@ -130,24 +155,23 @@ line-height: 18.96px;
 text-align: left;
 
 }
-.link{
+.nav-link{
 justify-content: space-between;
 }
-.buttons{
+.header-buttons{
   display: flex;
   margin-top: -5px;
 
 }
-.btn1{
+.header-btn1{
   font-size: 16px;
 
   padding-right: 35px;
 color:  #0B132A;
 font-weight: 700;
 }
-.btn2{
+.header-btn2{
   font-size: 16px;
-
   font-weight: 700;
   padding-right: 35px;
   border: 1px solid #F53855;
@@ -164,6 +188,7 @@ font-weight: 700;
 }
 /*End header*/
 
+
 /*Start intro*/
 .introduction{
   display: flex;
@@ -175,13 +200,7 @@ font-weight: 700;
 .intro__text{
   margin-right: 43px;
 }
-h1{
-/*   width: 555px;
-height: 140px;
-top: 206.77px;
-left: 150px;
-gap: 0px;
-opacity: 0px; */
+.the-intro-text{
 padding-top: 50px;
 font-family: Rubik;
 font-size: 50px;
@@ -189,29 +208,28 @@ font-weight:600;
 line-height: 70px;
 text-align: left;
 color: #0B132A;
-;
-
 }
-p{
+
+.des-of-intro{
   width: 555px;
 height: 60px;
 top: 366.77px;
 left: 150px;
-gap: 0px;
-opacity: 0px;
 margin-top: 20px;
-font-family: Rubik;
+
+
+/* font-family: Rubik;
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 text-align: left;
-color: #4F5665;
-;
+color: #4F5665; */
+
 }
 .intro__image{
   margin-top: 20px;
 }
-.btn3{
+.btn-of-intro{
   color: #FFFFFF;
   font-weight: 900;
   font-size: 15px;
@@ -224,15 +242,10 @@ left: 150px;
 gap: 0px;
 border-radius: 10px;
 opacity: 0px;
-box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.3);
+box-shadow: 0px 25px 30px rgba(255, 0, 0, 0.3);
 }
-/* .button:hover {
-  box-shadow: 0px 15px 25px rgba(255, 0, 0, 0.5);   /* تأثير الظل عند التمرير 
-} */
+
 /*End intro*/
-
-
-
 
 
 
@@ -247,28 +260,66 @@ box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.3);
   height: 55px;
   margin-right: 25px;
 }
-.des{
+.num-des{
   font-size: 22px;
+  margin-top: 25px;
 }
-.item{
+.block{
   display: flex;
 }
 .icons__row{
   display: grid;
   grid-template-columns: 350px 400px 350px;
-  margin-left: 100px;
+  margin-left: 10px;
   margin-top: 120px;
-  }
-/*متنسااااااااااااااااااااااااااااااااااااااااااااش تكمل الجزء ده يا محموووووووووووووووووووووووووووووووووووووووووووووووووووووووووووود*/
+  border: #ffffff 2px solid;
+  box-shadow: 0 15px 25px -5px rgba(163, 163, 163, 0.616);
+}
+.b1,.b2{
+  border-right: 2px solid #EEEFF2;
+height: 125.57px;
+}
+.b1{
+  margin-left: 50px;
+}
+.b2,.b3{
+padding-left: 150px;
+}
+
+.hidden-rectangel{
+  background-color: white;
+  margin-left: -20px;
+  width: 1350px;
+height: 189.22px;
+margin-top: -190px;
+border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
 /*End row*/
+
+
+
+
+
 
 /*Start features*/
 .features{
   display: flex;
-  margin-top: 200px;
+  padding-bottom: 120px;
+  margin-top: 100px;
+  margin-left: -100px;
+  border: #ffffff 2px solid;
+  box-shadow: 0 40px 100px 20px rgba(163, 163, 163, 0.106);    /*الداتا بتاعة الظل ده مش موجودة ف التصميم ف دي محاولة مني*/
+  width: 2100px;
 }
-
-
 
 
 .image2{
@@ -278,10 +329,11 @@ top: 960.38px;
 left: 184.52px;
 gap: 0px;
 opacity: 0px;
-margin-right: 200px;
+margin-right: 230px;
+margin-left: 120px;
 
 }
-h3{
+.Features__title{
   width: 383.41px;
   height: 100px;
   top: 1014.55px;
@@ -289,35 +341,33 @@ h3{
   gap: 0px;
   opacity: 0px;
   margin-top: 60px;
-color:  #0B132A;
-
-  font-family: Rubik;
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 50px;
   text-align: left;
-  
 }
-.text__Features{
+
+
+
+
+
+.Features__intro{
   width: 427.88px;
   height: 60px;
   top: 1134.55px;
   left: 862.12px;
   gap: 0px;
   opacity: 0px;
+  /* 
   color: #4F5665;
-
   font-family: Rubik;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
   margin-bottom: 10px;
-
+ */
 }
 
 
-.li{
+.li-of-features{
   font-family: Rubik;
   font-size: 14px;
   font-weight: 400;
@@ -330,7 +380,6 @@ color:  #0B132A;
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-
 }
 .img-row{
   display: flex;
@@ -341,28 +390,40 @@ color:  #0B132A;
   margin-right: 5px;
 }
 
+
+
+
+
+
+
 /*End features*/
 
+
+
+
+
 /*Strat plan*/
+
 .plan_title{
   display: grid;
   place-items: center;
   margin-top: 120px;
-
 }
-.titleof__plan{
+.title-of-plan{
   width: 383.41px;
 height: 50px;
 top: 1586.55px;
 left: 528.3px;
 gap: 0px;
 opacity: 0px;
+
+/* 
 font-family: Rubik;
 font-size: 35px;
 font-weight: 500;
 line-height: 50px;
 text-align: center;
-color: #0B132A;
+color: #0B132A; */
 }
 .plan__intro{
   width: 555px;
@@ -371,14 +432,16 @@ top: 1656.55px;
 left: 442.5px;
 gap: 0px;
 opacity: 0px;
-font-family: Rubik;
+text-align: center;
+
+/* font-family: Rubik;
 font-size: 16px;
 font-weight: 400;
 line-height: 30px;
 text-align: center;
-color: #4F5665;
-
+color: #4F5665; */
 }
+
 .plans-layouts{   /*ده كود كل الخطط*/
   display: flex;
   gap: 50PX;
@@ -386,8 +449,6 @@ color: #4F5665;
   margin-top: 80px;
   
 }
-
-
 .plan-layout{   /*ده كود كل خطه منفردة*/
   width: 330px;
 height: 760px;
@@ -400,14 +461,12 @@ gap: 30px;
 border: 2px solid #DDDDDD;  
 }
 
-
 .plan__name{
   font-size: 18px;
   font-weight: 500;
   padding-left: 20px;
   color: #0B132A;
   justify-content: center;
-
 }
 .plan_adv_list{
   width: 190.26px;
@@ -420,19 +479,19 @@ margin-left: -20px;
   padding-left: 30px;
   margin-bottom: 10px; 
   font-family: Rubik;
+} 
 
-  
-}
+/*كود اظهار علامة صح بجانب عناصر القائمة */
+/*نلاحظ اني غيرت مرة استخدمت صورة كأيقونه ومرة استخدمت رمز*/
 .pl-it::before{
-  content: "\2714"; /* رمز Unicode لعلامة الصح */
-            color: green; /* لون علامة الصح */
-            font-size: 1.5em; /* حجم علامة الصح */
-            position: absolute; /* ضبط العنصر بشكل مطلق */
-            left: 0; /* وضع العنصر في اليسار */
-            top: 50%; /* تمركز العنصر عمودياً */
+  content: "\2714"; /*  Unicode  رمز علامة الصح فى ال  */
+            color: green; /*لونها*/
+            font-size: 1.5em; /* حجمها*/
+            position: absolute;
+            left: 0; 
+            top: 50%; 
             transform: translateY(-50%);
 }
-
 
 .price{
 font-size: 25px;
@@ -446,8 +505,6 @@ margin-top: 100px;
   color: #0B132A;
   font-size: 25px;
 }
-
-
 .plan__btn{
   color: #F53838;
   margin-left: -25px;
@@ -478,15 +535,26 @@ border: 2px solid #F53838;
   margin-top: 100px;
   display: grid;
   place-items:center;
-
-  
 }
-.titleof__network{
-    text-align: center;
-    margin-left: 80px;
+.title-of-network{
+  width: 383.41px;
+  height: 100px;
+  top: 1014.55px;
+  left: 862.12px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 80px;
 }
 .network__intro{
   text-align: center;
+  width: 555px;
+height: 60px;
+top: 2806.55px;
+left: 442.5px;
+gap: 0px;
+opacity: 0px;
 
 }
 .world__image{
@@ -497,23 +565,50 @@ border: 2px solid #F53838;
 }
 /*End Network*/
 
+
+
+
+
 /*Start clients*/
 .clients{
   margin-top: 10px;
   place-items:center;
-    
 }
 .clients_title{
     margin-left: 350px;
 }
 
-.titleof__clients{
+
+
+
+
+.title-of-clients{
+  margin-top: 60px;
+  text-align: left;
   text-align: center;
   margin-left: 80px;
+
+  width: 447.81px;
+  height: 100px;
+  top: 3854.25px;
+  left: 496.1px;
+  gap: 0px;
+  opacity: 0px;
+  
+
+
 }
+
+
 .clients__intro{
   text-align: center;
-
+  width: 555px;
+  height: 60px;
+  top: 3974.25px;
+  left: 442.5px;
+  gap: 0px;
+  opacity: 0px;
+  
 }
 
 .client{
@@ -525,19 +620,17 @@ left: 150px;
 padding: 10px;
 margin-top: 50px;
 margin-right: 40px;
-margin-left: 40px;
+margin-left: 50px;
 margin-bottom: 50px;
 }
 .client:hover{
   border: 2px solid #F53838;  
-
+  box-shadow: 15px 15px 40px -5px rgba(163, 163, 163, 0.616);
+cursor: pointer;
 }
-
-
 .top{
   display: flex;
 }
-
 .right-part{
   width: 150px;
   height: 16px;
@@ -545,26 +638,21 @@ margin-bottom: 50px;
   display: flex;
 flex-direction: row;
 }
-
 .star{
   width: 15px;
 height: 14px;
   margin-right: 20px;
 }
 .rate{
-  margin-top: -7px;
+  margin-top: -1px;
   font-size: 15px;
   margin-left: 90px;
   padding-right: 15px;
-
 }
-
-
 .left-part{
   width: 250px;
   height:50px;
   display: flex;
-
 }
 .client_img{
   width: 60px;
@@ -574,13 +662,12 @@ top: 4124.25px;
 left: 630px;
 border: 1px gray solid;
 border-radius: 50%;
-
 }
 .client-name{
   font-family: Rubik;
 font-size: 15px;
 font-weight: 100;
-
+margin-top: 5px;
 }
 .client_city{
   width: 101px;
@@ -591,25 +678,22 @@ font-weight: 400;
 line-height: 30px;
 text-align: center;
 margin-left: -120px;
-
+margin-top: 15px;
 }
-
 .bottom{
   display: flex;
 }
 .client__opinion{
+  margin-top: 20px;
 flex-wrap: wrap;  
 font-family: Rubik;
 font-size: 10px;
 text-align: left;
 line-height: 2;
 font-weight: 500;
-}
+/* scroll-snap-align: start;  
+ */}
 /*   اللي فوق ده الكود بدون السكرووووول وكل الاراء جمب بعض*/
-
-
-
-
 .clients__wrapper{                      /*ده المكان اللي جواه السكرووول*/
   padding-top: 5rem;
   display: flex;
@@ -617,47 +701,48 @@ font-weight: 500;
   scroll-snap-type: x mandatory ;  /*       /* السطر ده علشان علامة الاسكور تروح للراي الاقرب ليها وتكون في بداية احد منهم*/
 }
 
-
+/* هذا الجزء محتاج اكواد جافا سكريبت للتنقل بين الاراء*/
 .buttons_scroll{
   display: flex;
   margin-left: 1050px;
   margin-top: 50px;
 }
-
 .btn_scroll{
 margin-right:15px ; 
   font-size: 40px;
   font-weight: 900;
   color: #F53838;
   width: 60px;
-height: 60px;
+  height: 60px;
  border: 2px solid #F53838;
  border-radius: 50%;
  padding-bottom: 65px;
 }
-.btn_scroll:checked{
-  color:white;
-  background-color: #F53838;
-
+.btn_scroll:hover{
+  color: white;
+  background-color: #F53838 ;
 }
 /*End clients*/
 
+
+
+
+
 /*Start Subscribe*/
-.subscribe{
-  width: 1180px;
+ .subscribe{
+  position: relative;
+  background-color: white;
+ z-index: 2;
+  width: 1100px;
 height: 233px;
-margin-top: 80px;
+margin-top: 50px;
+margin-left: 80px;
 display: flex;
 align-items: center;
 justify-content: center;
 gap: 250px;
-box-shadow: 0px 10px 20px rgba(54, 54, 54, 0.1);
- 
+box-shadow: 0px 10px 30px rgba(54, 54, 54, 0.1);
 }
-.left-part-of-subscribe{
-margin-left: 60px;
-}
-
 
 .subscribe-button{
   width: 250px;
@@ -667,24 +752,53 @@ height: 60px;
   font-weight: 900;
   color: white;
 background-color: #F53838;
-
-
 }
+
+.Subscribe-title{
+  width: 383.41px;
+  height: 100px;
+  top: 1014.55px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 60px;
+text-align: left;
+} 
+
 /*End Subscribe*/
 
 
 
-/*Start footer*/
 
+
+/*Start footer*/
 .footer{
+/* position: relative;
+z-index: 1; */
+  width: 100vw;
+height: 550px;
+margin-top: -100px;
   display: flex;
-  margin-top: 80px;
-  margin-left: 30px;
   gap: 300px;
+ margin-left: -60px;
 }
+.bg-gray{
+  position: relative;
+  width: 100vw;
+  height: 550px;
+  margin-left: -70px;
+  background-color: #F8F8F8;
+  margin-top: -570px;
+  overflow: visible;
+z-index: -1;
+}
+
+
 
 .left-part-of-footer{
   display: grid;
+  padding-top: 180px;
+  padding-left: 150px;
+  
 }
 .logo-footer{
   width: 149px;
@@ -693,9 +807,7 @@ top: 4805.78px;
 left: 150px;
 gap: 0px;
 opacity: 0px;
-
 }
-
 .footer-text{
   width: 340px;
 height: 61.57px;
@@ -703,13 +815,12 @@ top: 4862.01px;
 left: 150px;
 gap: 0px;
 opacity: 0px;
-font-family: Rubik;
+/* font-family: Rubik;
 font-size: 16px;
 font-weight: 500;
 line-height: 30px;
 text-align: left;
-color: #4F5665;
-
+color: #4F5665; */
 }
 .footer-icon{
   width: 33.6px;
@@ -717,15 +828,12 @@ color: #4F5665;
   top: 4953.58px;
  margin-top: 20px;
  margin-right: 15px;
-  
-
 }
 .copyright{
   width: 132px;
 height: 30px;
 margin-top: -35px;
 margin-left: 20px;
-
 font-family: Rubik;
 font-size: 16px;
 font-weight: 400;
@@ -733,11 +841,11 @@ line-height: 30px;
 text-align: center;
 color: #AFB5C0;
 }
-
-
 .right-part-of-footer{
   display: flex;
   gap: 100px;
+  padding-top: 180px;
+
 }
 .listname{
 font-family: Rubik;
@@ -757,35 +865,14 @@ line-height: 30px;
 text-align: left;
 color: #4F5665;
 margin-bottom: 8PX;
-
 }
 .item:hover{
   color: #F53838;
+  cursor: pointer;
 }
 .link:hover{
   color: #F53838;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*End footer*/
-
 
 
